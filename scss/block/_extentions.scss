@@ -1,0 +1,120 @@
+.extentions {
+    background: #EDF3F8;
+
+    .extentions__inner {
+        padding-top: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .extentions__box {
+        max-width: 445px;
+
+    }
+
+    .extentions__box-paragraph {
+        font-family: "DM Serif Display";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 56px;
+        letter-spacing: -0.369231px;
+        color: #36536B;
+        margin-bottom: 24px;
+
+    }
+
+    .extentions__box-text {
+        font-family: "Public Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 28px;
+        color: #6C8294;
+    }
+}
+@media only screen and (max-width: 1050px) {
+    .extentions {
+    
+        .extentions__inner {
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 40px;
+            padding-bottom: 100px;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .extentions__img {
+            margin-left: 40px;
+            width: 445px;
+            height: 284px;
+        }
+    
+        .extentions__box {
+            max-width: 573px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+    
+        .extentions__box-paragraph {
+            font-family: "DM Serif Display";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 48px;
+            line-height: 56px;
+            letter-spacing: -0.369231px;
+            color: #36536B;
+            margin-bottom: 24px;
+    
+        }
+    
+        .extentions__box-text {
+            font-family: "Public Sans";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 28px;
+            color: #6C8294;
+        }
+    }
+}
+@media only screen and (max-width: 490px) {
+    .extentions {
+    
+        .extentions__inner {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    
+        .extentions__img {
+            margin-left: 40px;
+            width: 281px;
+            height: 140px;
+        }
+    
+        .extentions__box {
+            max-width: 303px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+    
+        .extentions__box-paragraph {
+            font-size: 26px;
+            line-height: 26px;
+    
+        }
+        .extentions__box-text {
+            font-size: 12px;
+            line-height: 20px;
+        }
+    
+    }
+}

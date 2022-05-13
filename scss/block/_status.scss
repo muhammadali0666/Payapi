@@ -1,0 +1,133 @@
+.status {
+    background: #EDF3F8;
+
+    .status__inner {
+        padding-bottom: 100px;
+    }
+
+    .status__list {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .status__item {
+        max-width: 350px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .status__item+.status__item {
+        margin-left: 20px;
+    }
+
+    .status__item-img {
+        width: 106px;
+        height: 106px;
+        margin-bottom: 32px;
+    }
+
+    .status__item-paragraph {
+        margin-bottom: 16px;
+        font-family: "Public Sans";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        letter-spacing: -0.138462px;
+        color: #36536B;
+    }
+
+    .status__item-p {
+        font-family: "Public Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        letter-spacing: -0.115385px;
+        color: #6C8294;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    .status {
+
+        .status__inner {
+            padding-bottom: 100px;
+        }
+
+        .status__list {
+            vertical-align: middle;
+        }
+
+        .status__item {
+            vertical-align: middle;
+            max-width: 320px;
+        }
+
+        .status__item+.status__item {
+            margin-left: 20px;
+        }
+
+        .status__item-img {
+            width: 88px;
+            height: 88px;
+            margin-bottom: 32px;
+        }
+
+        .status__item-paragraph {
+            margin-bottom: 16px;
+            font-size: 18px;
+            line-height: 25px;
+        }
+
+        .status__item-p {
+            font-size: 15px;
+            line-height: 25px;
+        }
+    }
+}
+@media only screen and (max-width: 650px) {
+    .status {
+
+        .status__inner {
+            padding-bottom: 80px;
+            padding-top: 80px;
+        }
+
+        .status__list {
+            vertical-align: middle;
+            flex-direction: column;
+        }
+
+        .status__item {
+            vertical-align: middle;
+            max-width: 320px;
+        }
+
+        .status__item+.status__item {
+            margin-top: 48px;
+            margin-left: 20px;
+        }
+
+        .status__item-img {
+            width: 88px;
+            height: 88px;
+            margin-bottom: 32px;
+        }
+
+        .status__item-paragraph {
+            margin-bottom: 16px;
+            font-size: 18px;
+            line-height: 25px;
+        }
+
+        .status__item-p {
+            font-size: 15px;
+            line-height: 25px;
+        }
+    }
+}
